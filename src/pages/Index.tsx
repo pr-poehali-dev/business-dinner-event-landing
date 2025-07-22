@@ -81,7 +81,7 @@ const Index = () => {
                     <Icon name="MapPin" className="text-blue-600" size={24} />
                     <div>
                       <div className="font-semibold text-slate-800">Место</div>
-                      <div className="text-slate-600">Гостиница Hilton </div>
+                      <div className="text-slate-600">Hilton Garden Inn</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
