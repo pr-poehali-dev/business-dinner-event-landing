@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-slate-800">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#12375D] via-[#0E2B4A] to-slate-800">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center text-white">
@@ -16,13 +16,13 @@ const Index = () => {
             </Badge>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Бизнес-ужин в Оренбурге<br />
-              <span className="text-blue-300">от МедиаТехнологии</span>
+              <span className="text-blue-200">от МедиаТехнологии</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
               Уникальная возможность для предпринимателей обсудить важные вопросы бизнеса в неформальной обстановке
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 text-lg px-8 py-4">
+              <Button size="lg" className="bg-white text-[#12375D] hover:bg-slate-50 text-lg px-8 py-4">
                 <Icon name="UserPlus" className="mr-2" size={20} />
                 Зарегистрироваться
               </Button>
@@ -46,7 +46,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
                 О мероприятии
               </h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+              <div className="w-24 h-1 bg-[#12375D] mx-auto"></div>
             </div>
             
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -64,7 +64,7 @@ const Index = () => {
                 
                 <div className="grid sm:grid-cols-2 gap-6 mb-8">
                   <div className="flex items-center space-x-3">
-                    <Icon name="Calendar" className="text-blue-600" size={24} />
+                    <Icon name="Calendar" className="text-[#12375D]" size={24} />
                     <div>
                       <div className="font-semibold text-slate-800">Дата</div>
                       <div className="text-slate-600">15 августа 2025</div>
@@ -93,7 +93,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <Button className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-4">
+                <Button className="bg-[#12375D] hover:bg-[#0E2B4A] text-lg px-8 py-4">
                   <Icon name="UserPlus" className="mr-2" size={20} />
                   Зарегистрироваться
                 </Button>
@@ -120,7 +120,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
                 Наши спикеры
               </h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+              <div className="w-24 h-1 bg-[#12375D] mx-auto mb-6"></div>
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
                 На бизнес-ужине вас ждут вдохновляющие и опытные спикеры, готовые поделиться 
                 своими инсайтами и решениями, которые помогают вести успешный бизнес.
@@ -136,12 +136,12 @@ const Index = () => {
                       alt="Алексей Петров" 
                       className="w-24 h-24 rounded-full object-cover mx-auto shadow-lg"
                     />
-                    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-[#12375D] rounded-full flex items-center justify-center">
                       <Icon name="Star" className="text-white" size={16} />
                     </div>
                   </div>
                   <CardTitle className="text-xl font-bold text-slate-800">Алексей Петров</CardTitle>
-                  <CardDescription className="text-blue-600 font-semibold">
+                  <CardDescription className="text-[#12375D] font-semibold">
                     CEO, Инновационные технологии
                   </CardDescription>
                 </CardHeader>
@@ -164,12 +164,12 @@ const Index = () => {
                     <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mx-auto shadow-lg">
                       <Icon name="User" className="text-white" size={32} />
                     </div>
-                    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-[#12375D] rounded-full flex items-center justify-center">
                       <Icon name="Award" className="text-white" size={16} />
                     </div>
                   </div>
                   <CardTitle className="text-xl font-bold text-slate-800">Мария Козлова</CardTitle>
-                  <CardDescription className="text-blue-600 font-semibold">
+                  <CardDescription className="text-[#12375D] font-semibold">
                     Директор по маркетингу, РосБизнес
                   </CardDescription>
                 </CardHeader>
@@ -192,12 +192,12 @@ const Index = () => {
                     <div className="w-24 h-24 rounded-full bg-gradient-to-br from-green-500 to-blue-600 flex items-center justify-center mx-auto shadow-lg">
                       <Icon name="TrendingUp" className="text-white" size={32} />
                     </div>
-                    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-[#12375D] rounded-full flex items-center justify-center">
                       <Icon name="Trophy" className="text-white" size={16} />
                     </div>
                   </div>
                   <CardTitle className="text-xl font-bold text-slate-800">Дмитрий Иванов</CardTitle>
-                  <CardDescription className="text-blue-600 font-semibold">
+                  <CardDescription className="text-[#12375D] font-semibold">
                     Финансовый консультант, ФинЭксперт
                   </CardDescription>
                 </CardHeader>
@@ -226,25 +226,25 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
                 Программа мероприятия
               </h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+              <div className="w-24 h-1 bg-[#12375D] mx-auto mb-6"></div>
               <p className="text-xl text-slate-600 leading-relaxed">
                 Наши сессии и обсуждения помогут вам раскрыть новые горизонты для вашего бизнеса
               </p>
             </div>
             
             <div className="relative">
-              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-600 to-blue-300"></div>
+              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#12375D] to-blue-300"></div>
               
               <div className="space-y-12">
                 <div className="relative flex items-start space-x-8">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="flex-shrink-0 w-16 h-16 bg-[#12375D] rounded-full flex items-center justify-center shadow-lg">
                     <Icon name="Users" className="text-white" size={24} />
                   </div>
                   <div className="flex-1">
                     <div className="bg-white p-6 rounded-xl shadow-lg border border-slate-100">
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                         <h3 className="text-xl font-bold text-slate-800">Приветственное слово</h3>
-                        <Badge className="bg-blue-100 text-blue-700 w-fit mt-2 sm:mt-0">19:00 - 19:15</Badge>
+                        <Badge className="bg-slate-100 text-[#12375D] w-fit mt-2 sm:mt-0">19:00 - 19:15</Badge>
                       </div>
                       <p className="text-slate-600 leading-relaxed">
                         Знакомство с участниками, обзор программы вечера и установка контактов
@@ -254,14 +254,14 @@ const Index = () => {
                 </div>
 
                 <div className="relative flex items-start space-x-8">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="flex-shrink-0 w-16 h-16 bg-[#12375D] rounded-full flex items-center justify-center shadow-lg">
                     <Icon name="MessageSquare" className="text-white" size={24} />
                   </div>
                   <div className="flex-1">
                     <div className="bg-white p-6 rounded-xl shadow-lg border border-slate-100">
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                         <h3 className="text-xl font-bold text-slate-800">Панельная дискуссия</h3>
-                        <Badge className="bg-blue-100 text-blue-700 w-fit mt-2 sm:mt-0">19:15 - 20:30</Badge>
+                        <Badge className="bg-slate-100 text-[#12375D] w-fit mt-2 sm:mt-0">19:15 - 20:30</Badge>
                       </div>
                       <p className="text-slate-600 leading-relaxed">
                         "Тренды бизнеса 2025: что нужно знать предпринимателям" - обсуждение с экспертами
@@ -271,14 +271,14 @@ const Index = () => {
                 </div>
 
                 <div className="relative flex items-start space-x-8">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="flex-shrink-0 w-16 h-16 bg-[#12375D] rounded-full flex items-center justify-center shadow-lg">
                     <Icon name="Coffee" className="text-white" size={24} />
                   </div>
                   <div className="flex-1">
                     <div className="bg-white p-6 rounded-xl shadow-lg border border-slate-100">
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                         <h3 className="text-xl font-bold text-slate-800">Нетворкинг и ужин</h3>
-                        <Badge className="bg-blue-100 text-blue-700 w-fit mt-2 sm:mt-0">20:30 - 21:30</Badge>
+                        <Badge className="bg-slate-100 text-[#12375D] w-fit mt-2 sm:mt-0">20:30 - 21:30</Badge>
                       </div>
                       <p className="text-slate-600 leading-relaxed">
                         Свободное общение участников за изысканным ужином, обмен контактами и опытом
@@ -288,14 +288,14 @@ const Index = () => {
                 </div>
 
                 <div className="relative flex items-start space-x-8">
-                  <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="flex-shrink-0 w-16 h-16 bg-[#12375D] rounded-full flex items-center justify-center shadow-lg">
                     <Icon name="Award" className="text-white" size={24} />
                   </div>
                   <div className="flex-1">
                     <div className="bg-white p-6 rounded-xl shadow-lg border border-slate-100">
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                         <h3 className="text-xl font-bold text-slate-800">Заключительная часть</h3>
-                        <Badge className="bg-blue-100 text-blue-700 w-fit mt-2 sm:mt-0">21:30 - 22:00</Badge>
+                        <Badge className="bg-slate-100 text-[#12375D] w-fit mt-2 sm:mt-0">21:30 - 22:00</Badge>
                       </div>
                       <p className="text-slate-600 leading-relaxed">
                         Подведение итогов, обмен впечатлениями и планирование дальнейшего сотрудничества
@@ -317,7 +317,7 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
                 Место проведения
               </h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+              <div className="w-24 h-1 bg-[#12375D] mx-auto mb-6"></div>
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
                 Мероприятие пройдет в уютном и стильном месте, которое идеально подходит 
                 для неформальных встреч и делового общения
@@ -331,7 +331,7 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-slate-800 mb-4">Ресторан "Панорама"</h3>
                     <div className="space-y-4">
                       <div className="flex items-start space-x-3">
-                        <Icon name="MapPin" className="text-blue-600 mt-1" size={20} />
+                        <Icon name="MapPin" className="text-[#12375D] mt-1" size={20} />
                         <div>
                           <div className="font-semibold text-slate-800">Адрес</div>
                           <div className="text-slate-600">ул. Советская, 25, Оренбург, 460000</div>
@@ -355,13 +355,13 @@ const Index = () => {
                   </div>
                   
                   <div className="space-y-4">
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-4">
+                    <Button className="w-full bg-[#12375D] hover:bg-[#0E2B4A] text-lg py-4">
                       <Icon name="Navigation" className="mr-2" size={20} />
                       Построить маршрут
                     </Button>
                     <Button 
                       variant="outline" 
-                      className="w-full border-blue-600 text-blue-600 hover:bg-blue-50 text-lg py-4"
+                      className="w-full border-[#12375D] text-[#12375D] hover:bg-slate-50 text-lg py-4"
                     >
                       <Icon name="UserPlus" className="mr-2" size={20} />
                       Зарегистрироваться
@@ -385,7 +385,7 @@ const Index = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 via-blue-700 to-slate-800 relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-[#12375D] via-[#0E2B4A] to-slate-800 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="relative container mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto text-white">
@@ -398,7 +398,7 @@ const Index = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 text-xl px-12 py-6">
+              <Button size="lg" className="bg-white text-[#12375D] hover:bg-slate-50 text-xl px-12 py-6">
                 <Icon name="UserPlus" className="mr-2" size={24} />
                 Зарегистрироваться сейчас
               </Button>
