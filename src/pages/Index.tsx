@@ -19,7 +19,7 @@ const Index = () => {
               <span className="text-blue-200">от МедиаТехнологии</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Уникальная возможность для предпринимателей обсудить важные вопросы бизнеса в неформальной обстановке
+              Возможность обсудить важные вопросы о российских решениях для строительства и производства: САПР/ТИМ/СОД в неформальной обстановке
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-[#12375D] hover:bg-slate-50 text-lg px-8 py-4">
@@ -52,14 +52,14 @@ const Index = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                  Бизнес-ужин от МедиаТехнологии — это уникальная возможность для предпринимателей, 
-                  руководителей и менеджеров обсудить важные вопросы бизнеса в неформальной обстановке. 
-                  Присоединяйтесь к встрече с успешными экспертами, которые поделятся опытом, 
-                  секретами ведения бизнеса и новыми тенденциями.
+                  Бизнес-ужин от МедиаТехнологии для людей, которые вносят вклад в развитие 
+                  социальной среды — проектируют и строят здания, дороги, мосты, благоустраивают 
+                  территории, выпускают различные изделия и технику, создают рабочие места и 
+                  приближают будущее.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                  За вечер вы не только получите полезные знания, но и сможете наладить важные 
-                  деловые связи в кругу единомышленников.
+                  За ужином разберем актуальные задачи в проектировании и их решение в 
+                  современных реалиях.
                 </p>
                 
                 <div className="grid sm:grid-cols-2 gap-6 mb-8">
@@ -67,28 +67,28 @@ const Index = () => {
                     <Icon name="Calendar" className="text-[#12375D]" size={24} />
                     <div>
                       <div className="font-semibold text-slate-800">Дата</div>
-                      <div className="text-slate-600">15 августа 2025</div>
+                      <div className="text-slate-600">11 сентября 2025</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Icon name="Clock" className="text-blue-600" size={24} />
                     <div>
                       <div className="font-semibold text-slate-800">Время</div>
-                      <div className="text-slate-600">19:00 - 22:00</div>
+                      <div className="text-slate-600">15:00 - 20:00</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Icon name="MapPin" className="text-blue-600" size={24} />
                     <div>
                       <div className="font-semibold text-slate-800">Место</div>
-                      <div className="text-slate-600">Ресторан "Панорама"</div>
+                      <div className="text-slate-600">Hilton Garden Inn</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Icon name="CreditCard" className="text-blue-600" size={24} />
                     <div>
                       <div className="font-semibold text-slate-800">Цена</div>
-                      <div className="text-slate-600">2 500 ₽</div>
+                      <div className="text-slate-600">Бесплатно</div>
                     </div>
                   </div>
                 </div>
@@ -328,13 +328,13 @@ const Index = () => {
               <div>
                 <Card className="bg-white border-0 shadow-xl p-8">
                   <div className="mb-6">
-                    <h3 className="text-2xl font-bold text-slate-800 mb-4">Ресторан "Панорама"</h3>
+                    <h3 className="text-2xl font-bold text-slate-800 mb-4">Гостиница Hilton Garden Inn</h3>
                     <div className="space-y-4">
                       <div className="flex items-start space-x-3">
                         <Icon name="MapPin" className="text-[#12375D] mt-1" size={20} />
                         <div>
                           <div className="font-semibold text-slate-800">Адрес</div>
-                          <div className="text-slate-600">ул. Советская, 25, Оренбург, 460000</div>
+                          <div className="text-slate-600">ул. Маршала Жукова, 26, г. Оренбург</div>
                         </div>
                       </div>
                       <div className="flex items-start space-x-3">
@@ -371,12 +371,16 @@ const Index = () => {
               </div>
               
               <div className="relative">
-                <div className="bg-slate-300 rounded-2xl h-96 flex items-center justify-center shadow-xl">
-                  <div className="text-center text-slate-600">
-                    <Icon name="Map" size={48} className="mx-auto mb-4" />
-                    <p className="text-lg font-medium">Интерактивная карта</p>
-                    <p className="text-sm">Откроется в новом окне</p>
-                  </div>
+                <div className="bg-slate-100 rounded-2xl h-96 shadow-xl overflow-hidden">
+                  <iframe 
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A8f8c8f8c8f8c8f8c8f8c8f8c8f8c8f8c&source=constructor" 
+                    width="100%" 
+                    height="100%" 
+                    frameBorder="0"
+                    title="Карта Hilton Garden Inn Оренбург"
+                    className="rounded-2xl"
+                  >
+                  </iframe>
                 </div>
               </div>
             </div>
