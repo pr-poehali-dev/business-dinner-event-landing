@@ -121,10 +121,7 @@ const Index = () => {
                 Наши спикеры
               </h2>
               <div className="w-24 h-1 bg-[#12375D] mx-auto mb-6"></div>
-              <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-                На бизнес-ужине вас ждут вдохновляющие и опытные спикеры, готовые поделиться 
-                своими инсайтами и решениями, которые помогают вести успешный бизнес.
-              </p>
+              <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed"></p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
