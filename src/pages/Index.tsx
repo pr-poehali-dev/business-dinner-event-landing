@@ -11,8 +11,13 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center text-white">
-            <Badge className="mb-6 bg-white/20 text-white border-white/30 hover:bg-white/30">nanoCAD впервые в Оренбурге </Badge>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"></h1>
+            <Badge className="mb-6 bg-white/20 text-white border-white/30 hover:bg-white/30">
+              Эксклюзивное мероприятие
+            </Badge>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+              Бизнес-ужин в Оренбурге<br />
+              <span className="text-blue-200">от МедиаТехнологии</span>
+            </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
               Возможность обсудить важные вопросы о российских решениях для строительства и производства: САПР/ТИМ/СОД в неформальной обстановке
             </p>
@@ -76,7 +81,7 @@ const Index = () => {
                     <Icon name="MapPin" className="text-blue-600" size={24} />
                     <div>
                       <div className="font-semibold text-slate-800">Место</div>
-                      <div className="text-slate-600">Гостиница Hilton</div>
+                      <div className="text-slate-600">Гостиница Hilton </div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
